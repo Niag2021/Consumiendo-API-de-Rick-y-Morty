@@ -18,6 +18,9 @@ getCharacters(data=>{
                 </div>
                 <h2>${personaje.name}</h2>
                 <span>${personaje.status}</span>
+                <p>${personaje.species}</p>
+                <p>${personaje.gender}</p>
+                <p>${personaje.origin.name}</p>
             </article>        
         `);
         //Mostras en pantalla.
